@@ -4,7 +4,11 @@ create database called 'symfony'
 ```
 git clone git@github.com:retroconduct/rest-api-symfony.git
 ```
-change directory to 'rest-api-symfony' and run the following commands
+change directory
+```
+cd rest-api-symfony
+```
+run these in terminal
 ```
 php bin/console doctrine:schema:update --force
 php bin/console server:run
@@ -42,3 +46,16 @@ name required string
 - DELETE /authors/{id}
 
 #####   * instead of returning the name of the Author this returns the entire Author object
+
+# Backup
+
+change directory
+```
+cd rest-api-symfony
+```
+run these in terminal
+
+```
+chmod u+x backup.sh
+sh backup.sh
+```
