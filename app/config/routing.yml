@@ -1,0 +1,7 @@
+article:
+    type:     rest
+    resource: AppBundle\Controller\ArticleController
+
+author:
+    type:     rest
+    resource: AppBundle\Controller\AuthorController
